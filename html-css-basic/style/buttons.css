@@ -1,0 +1,272 @@
+.subsribe-button{
+    background-color: rgb(179, 4, 4);
+    color:white;
+    /* BOX MODEL */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+   
+    border: none;
+    border-radius: 3px;
+    margin-right: 4px;
+    cursor: pointer;
+    transition: background-color 1s; /*transition(property-name,duration) */
+}
+
+/* Hover and transition  using Pseudo class*/
+.subsribe-button:hover{
+opacity: 0.7;
+
+}
+.subsribe-button:active{
+opacity: 0.4;
+
+}
+
+.join-button{
+    background-color: white;
+    color: rgb(24, 127, 196) ;;
+    border-color:rgb(95, 180, 255);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.15s,color 0.15s;/*transition(property-name,duration) */
+}
+/* Hover and transition  using Pseudo class*/
+.join-button:hover{
+background-color: rgb(67, 152, 225);
+color: white;
+}
+.join-button:active{
+opacity: 0.5;
+
+}
+.tweet-button{
+    background-color: rgb(95, 180, 255);
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 4px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;/*transition(property-name,duration) */
+}
+/* Hover and transition  using Pseudo class*/
+.tweet-button:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.tweet-button:active{
+opacity: 0.5;
+
+}
+/****************************************** */
+
+.head-paragraph{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.price-paragraph{
+color: rgb(0, 155, 0);
+font-weight: bold;
+}
+.cart-button{
+    background-color: rgb(228, 228, 48);
+    height: 30px;
+    border: none;
+    width: 110px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.buy-now-button{
+    background-color: rgb(229, 189, 10);
+    height: 30px;
+    border: none;
+    width: 110px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+a{
+    color:rgb(80, 80, 244) ;
+}
+
+/****************************************** */
+    .margin{
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+.request-now{
+background-color: black;
+color: white;
+height: 30px;
+width: 100px;
+border: none;
+font-family:Georgia, 'Times New Roman', Times, serif;
+cursor: pointer;
+transition: 0.15s;
+}
+.request-now:hover{
+    opacity: 0.8;
+}
+.add-to-cart{
+   background-color: rgb(255, 230, 45); 
+   color: black;
+   height: 30px;
+   width: 120px;
+   border: none;
+   border-radius: 15px;
+   cursor: pointer;
+   transition: 0.15s;
+}
+.add-to-cart:hover{
+   background-color: rgb(227, 205, 39);
+}
+.sign-up{
+    background-color: green;
+    color: white;
+    height: 30px; 
+    width: 90px;  
+    border: none;
+    border-radius:4px ;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.15s;
+}
+.sign-up:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.get-started{
+    background-color: rgb(124, 11, 245);
+    color: white;
+    height: 30px;
+    width: 105px;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.15s;
+}
+.get-started:hover{
+    background-color: rgb(102, 10, 201);
+}
+.download{
+    background-color: white;
+    color: grey;
+    height: 30px;
+    width: 105px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(173, 172, 172);
+    border-radius: 3px;
+    font-weight: bold; 
+    margin-right: 50px;
+    cursor: pointer;
+    transition: 0.15s;
+}
+.apply-company-website{
+    background-color: rgb(0, 153, 248); 
+   color: white;
+   height: 30px;
+   width: 190px;
+   border: none;
+   border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.15s;
+}
+.save{
+    background-color: white; 
+   color: rgb(0, 153, 248);
+   height: 30px;
+   width: 65px;
+   border: 1px;
+   border-style: solid;
+   border-radius: 15px;
+   font-weight: bold;
+   cursor: pointer;
+   transition: 0.15s;
+}
+/****************************************** */
+.number-btn{
+    background-color: white;
+    color: black;
+    border: none;
+    text-decoration-line: underline;
+    color: blue;
+    cursor: pointer;
+}
+/****************************************** */
+.stretch-btn{
+    background-color: green;
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    transition: 0.60s;
+}
+.stretch-btn:hover{
+    background-color: green;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+}
+
+/****************************************** */
+.click-3d-btn{
+    background-color: green;
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: box-shadow 0.15s, margin-top 0.15s, margin-left 0.15s;
+}
+.click-3d-btn:active{
+   margin-top: 5px;
+   margin-left: 5px;
+   box-shadow: none;
+}
+/****************************************** */
+.map-btn{
+    background-color: green;
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    border: none;
+    cursor: pointer;
+    transition: padding 0.15s, margin 0.15s;
+}
+.map-btn:hover{
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
